@@ -1,0 +1,39 @@
+name: SWC
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - cartopy
+  - fiona
+  - folium
+  - git
+  - gridgeo
+  - ipykernel
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - mplleaflet
+  - netcdf4
+  - numpy
+  - palettable
+  - pandas
+  - pip
+  - rasterio
+  - rise
+  - scipy
+  - seaborn
+  - shapely
+  - xarray
+  - xlrd
+  # R packages.
+  - rpy2
+  - r-base=3.4.1
+  - r-ggplot2
+  - r-gsw
+  - r-irkernel
+  - r-ncdf4
+  - r-oce
+  - r-rcolorbrewer
+  - r-rerddap
+  - r-xtractomatic
